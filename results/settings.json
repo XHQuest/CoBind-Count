@@ -1,0 +1,25 @@
+{
+  "reference_test800": {
+    "purpose": "Reference-image evaluator agreement",
+    "images": 800,
+    "judge": {
+      "model_id": "Qwen/Qwen3.5-9B",
+      "model_revision": "local-unspecified",
+      "dtype": "bfloat16",
+      "temperature": 0.0,
+      "judge_seed": 20261103,
+      "enable_thinking": false,
+      "max_new_tokens": 32,
+      "min_pixels": 262144,
+      "max_pixels": 1048576,
+      "max_model_len": 4096,
+      "software_versions": {
+        "vllm": "0.33.0",
+        "torch": "2.14.0",
+        "transformers": "5.20.2",
+        "Pillow": "13.0.0",
+        "tqdm": "4.70.1"
+      }
+    }
+  }
+}

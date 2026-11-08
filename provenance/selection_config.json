@@ -1,0 +1,329 @@
+{
+  "version": "cobind-count-v1.0",
+  "training": {
+    "prompts": 1000,
+    "source_split": "trainA",
+    "condition": "A",
+    "object_counts": [
+      4,
+      5,
+      6
+    ],
+    "object_count_distribution": {
+      "4": 335,
+      "5": 346,
+      "6": 319
+    },
+    "same_shape_different_colors": true,
+    "same_color_different_shapes": true,
+    "fixed_order": "source_build/training_order.json",
+    "tokenizer_model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "token_limits": {
+      "tokenizer": 77,
+      "tokenizer_2": 77
+    }
+  },
+  "heldout": {
+    "selection_seed": 20261106,
+    "development_prompts": 200,
+    "test_prompts": 800,
+    "object_counts": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "same_shape_different_colors_fraction": {
+      "3": 0.6,
+      "4": 0.8,
+      "5": 1.0,
+      "6": 1.0
+    },
+    "cell_quotas": {
+      "test_A": [
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": false,
+          "prompts": 17
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 23
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 58
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 2
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 20
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 50
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 30
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 50
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 50
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 50
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 50
+        }
+      ],
+      "test_B": [
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": false,
+          "prompts": 17
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 23
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 58
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 2
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 20
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 50
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 30
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 50
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 50
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 50
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 50
+        }
+      ],
+      "development_A": [
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": false,
+          "prompts": 5
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 5
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 14
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 1
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 5
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 13
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 7
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 13
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 12
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 13
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 12
+        }
+      ],
+      "development_B": [
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": false,
+          "prompts": 5
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 5
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 14
+        },
+        {
+          "object_count": 3,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 1
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": false,
+          "repeated_color_shape": true,
+          "prompts": 5
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 12
+        },
+        {
+          "object_count": 4,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 8
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 12
+        },
+        {
+          "object_count": 5,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 13
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": false,
+          "prompts": 12
+        },
+        {
+          "object_count": 6,
+          "same_shape_different_colors": true,
+          "repeated_color_shape": true,
+          "prompts": 13
+        }
+      ]
+    },
+    "token_limits": {
+      "clip": 77,
+      "t5": 512
+    }
+  },
+  "caption_version": "full_attributes_semicolon_v1",
+  "reference_image_preprocessing": "Original PNGs; no resize or crop.",
+  "split_separation": [
+    "scene_id",
+    "prompt_text",
+    "reference_image_sha256",
+    "core_color_shape_multiset"
+  ]
+}

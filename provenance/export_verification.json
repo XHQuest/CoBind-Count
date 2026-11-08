@@ -1,0 +1,43 @@
+{
+  "version": "cobind-count-v1.0",
+  "split_counts": {
+    "train": 1000,
+    "development": 200,
+    "test": 800
+  },
+  "unique_scene_ids": 2000,
+  "unique_core_targets": 1905,
+  "unique_prompt_texts": 2000,
+  "cross_split_overlaps": {
+    "train/development": {
+      "scene_ids": 0,
+      "prompt_texts": 0,
+      "core_targets": 0,
+      "reference_image_sha256": 0
+    },
+    "train/test": {
+      "scene_ids": 0,
+      "prompt_texts": 0,
+      "core_targets": 0,
+      "reference_image_sha256": 0
+    },
+    "development/test": {
+      "scene_ids": 0,
+      "prompt_texts": 0,
+      "core_targets": 0,
+      "reference_image_sha256": 0
+    }
+  },
+  "training_order_sha256": "f0cd3e50490fcb5e3182ce9e5850e3140bde21da03f510e9396b71b101736a69",
+  "training_membership_and_order_match": true,
+  "targets_and_difficulty_labels_match_objects": true,
+  "split_files_sha256": {
+    "data/train.jsonl": "a594986bfadd45be2158974027daaeef3a288a3ae1a93214dd794d33167bdc20",
+    "data/development.jsonl": "c3b03aa3f1ba0eaea8f1ec09abedc0ba6886706ae41172fd2681d407a4f89af2",
+    "data/test.jsonl": "2d231263d2bc0923f0a977a6d74635fcdb6136aa222e6490a12cf2ef250afae0"
+  },
+  "reference_images_verified": 800,
+  "packaged_reference_image_splits": [
+    "test"
+  ]
+}

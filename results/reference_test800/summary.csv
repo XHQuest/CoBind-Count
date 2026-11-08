@@ -1,0 +1,6 @@
+model,scope,level,object_count,prompts,expected_images,listed_images,fully_answered_images,scored_images,unscored_images,consistent_images,inconsistent_images,expected_questions,invalid_answers,pending_questions,answered_questions,inconsistent_rate,core_full_match,core_full_match_available_images,joint_count_f1,joint_count_f1_available_images,count_acc,count_acc_available_images,auxiliary_marginal_pass_joint_fail_images,auxiliary_marginal_pass_images_denominator,error_unscored,error_inconsistent,error_total,error_shape,error_other,error_color,error_binding,error_pass
+reference_test,all,all,,800,800,800,800,800,0,770,30,23200,0,0,23200,0.0375,0.96,800,0.9957346403596407,800,0.98125,800,0,768,0,30,2,0,0,0,0,768
+reference_test,object_count,N3,3,200,200,200,200,200,0,193,7,5800,0,0,5800,0.035,0.965,200,0.9943571428571429,200,0.99,200,0,193,0,7,0,0,0,0,0,193
+reference_test,object_count,N4,4,200,200,200,200,200,0,192,8,5800,0,0,5800,0.04,0.96,200,0.9943650793650793,200,0.98,200,0,192,0,8,0,0,0,0,0,192
+reference_test,object_count,N5,5,200,200,200,200,200,0,195,5,5800,0,0,5800,0.025,0.97,200,0.9977777777777778,200,0.98,200,0,194,0,5,1,0,0,0,0,194
+reference_test,object_count,N6,6,200,200,200,200,200,0,190,10,5800,0,0,5800,0.05,0.945,200,0.9964385614385614,200,0.975,200,0,189,0,10,1,0,0,0,0,189

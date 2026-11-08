@@ -1,0 +1,101 @@
+{
+  "train": {
+    "prompts": 1000,
+    "condition": {
+      "A": 1000
+    },
+    "object_count": {
+      "4": 335,
+      "5": 346,
+      "6": 319
+    },
+    "condition_by_count": {
+      "A/4": 335,
+      "A/5": 346,
+      "A/6": 319
+    },
+    "diagnostic_group": {
+      "same_shape_diff_colors": 637,
+      "same_shape_diff_colors_repeated": 363
+    },
+    "difficulty": {
+      "same_shape_different_colors": 1000,
+      "same_color_different_shapes": 1000,
+      "repeated_color_shape": 363
+    },
+    "unique_scene_ids": 1000,
+    "unique_core_targets": 905
+  },
+  "development": {
+    "prompts": 200,
+    "condition": {
+      "A": 100,
+      "B": 100
+    },
+    "object_count": {
+      "3": 50,
+      "4": 50,
+      "5": 50,
+      "6": 50
+    },
+    "condition_by_count": {
+      "A/3": 25,
+      "A/4": 25,
+      "A/5": 25,
+      "A/6": 25,
+      "B/3": 25,
+      "B/4": 25,
+      "B/5": 25,
+      "B/6": 25
+    },
+    "diagnostic_group": {
+      "basic": 10,
+      "repeated_only": 20,
+      "same_shape_diff_colors": 103,
+      "same_shape_diff_colors_repeated": 67
+    },
+    "difficulty": {
+      "same_shape_different_colors": 170,
+      "same_color_different_shapes": 96,
+      "repeated_color_shape": 87
+    },
+    "unique_scene_ids": 200,
+    "unique_core_targets": 200
+  },
+  "test": {
+    "prompts": 800,
+    "condition": {
+      "A": 400,
+      "B": 400
+    },
+    "object_count": {
+      "3": 200,
+      "4": 200,
+      "5": 200,
+      "6": 200
+    },
+    "condition_by_count": {
+      "A/3": 100,
+      "A/4": 100,
+      "A/5": 100,
+      "A/6": 100,
+      "B/3": 100,
+      "B/4": 100,
+      "B/5": 100,
+      "B/6": 100
+    },
+    "diagnostic_group": {
+      "basic": 34,
+      "repeated_only": 86,
+      "same_shape_diff_colors": 416,
+      "same_shape_diff_colors_repeated": 264
+    },
+    "difficulty": {
+      "same_shape_different_colors": 680,
+      "same_color_different_shapes": 298,
+      "repeated_color_shape": 350
+    },
+    "unique_scene_ids": 800,
+    "unique_core_targets": 800
+  }
+}

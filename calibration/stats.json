@@ -1,0 +1,53 @@
+{
+  "version": "cobind-count-calibration-v1",
+  "benchmark_version": "cobind-count-v1.0",
+  "source": "data/development.jsonl",
+  "source_sha256": "c3b03aa3f1ba0eaea8f1ec09abedc0ba6886706ae41172fd2681d407a4f89af2",
+  "seed": 20261106,
+  "selection": "Sort by id within condition/N cell; fixed seeded random.sample; no model results used.",
+  "cell_quotas": {
+    "A/3": 13,
+    "B/3": 12,
+    "A/4": 12,
+    "B/4": 13,
+    "A/5": 13,
+    "B/5": 12,
+    "A/6": 12,
+    "B/6": 13
+  },
+  "reference_images": 100,
+  "condition_counts": {
+    "A": 50,
+    "B": 50
+  },
+  "object_count_counts": {
+    "3": 25,
+    "4": 25,
+    "5": 25,
+    "6": 25
+  },
+  "pair_counts": {
+    "positive": 100,
+    "count_mismatch": 100,
+    "binding_swap": 92
+  },
+  "pair_total": 292,
+  "binding_swap_unavailable_ids": [
+    "CLEVR_valA_009596",
+    "CLEVR_valA_000269",
+    "CLEVR_valA_011041",
+    "CLEVR_valB_003055",
+    "CLEVR_valB_012464",
+    "CLEVR_valB_007162",
+    "CLEVR_valB_011851",
+    "CLEVR_valB_002238"
+  ],
+  "binding_swap_scope": "Requires two occupied cells with distinct colors and shapes; no artificial pairs for ineligible scenes.",
+  "no_additional_independent_dataset_samples": true,
+  "split_note": "These 100 reference images are a subset of the 200 development scenes, not test scenes.",
+  "files_sha256": {
+    "references.jsonl": "084ca572778b69a951a796c3f9b0a28fe8616e37accee06a901b97957203d478",
+    "pairs.jsonl": "a0b70dbff9d7a5b3e486390dac655d88399b284661b92dcb6b58f91449920eb8",
+    "images.jsonl": "387362a548bdfab977e8e6ea779570278bd8aea69d7b4300b9af0f28f8a502b3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "oracle_only": true,
+  "no_model_inference": true,
+  "protocol": "cobind-count-qwen-v1",
+  "scoring_version": "cobind-count-score-v1",
+  "input": "Perfect counts derived from original scene annotations; not Qwen answers.",
+  "pairs_sha256": "a0b70dbff9d7a5b3e486390dac655d88399b284661b92dcb6b58f91449920eb8",
+  "references_sha256": "084ca572778b69a951a796c3f9b0a28fe8616e37accee06a901b97957203d478",
+  "protocol_sha256": "d7ad93d5a37584a3b6e938eecd472966c545acb9aab917c4138d4d5092610472",
+  "checked_pair_counts": {
+    "positive": 100,
+    "count_mismatch": 100,
+    "binding_swap": 92
+  },
+  "checked_pairs": 292,
+  "all_positive_targets_accepted": true,
+  "all_negative_targets_rejected": true,
+  "all_binding_swap_marginals_preserved": true,
+  "all_binding_swap_targets_classified_as_binding_error": true,
+  "all_count_mismatch_targets_classified_as_total_error": true,
+  "note": "Verifies construction and CPU scoring logic only; no empirical judge accuracy claim."
+}

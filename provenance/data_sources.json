@@ -1,0 +1,41 @@
+{
+  "source": "CLEVR-CoGenT v1.0",
+  "url": "https://cs.stanford.edu/people/jcjohns/clevr/",
+  "license": "CC-BY-4.0",
+  "split_sources": {
+    "train": [
+      "trainA"
+    ],
+    "development": [
+      "valA",
+      "valB"
+    ],
+    "test": [
+      "valA",
+      "valB"
+    ]
+  },
+  "fixed_split_files": {
+    "train": "../data/train.jsonl",
+    "development": "../data/development.jsonl",
+    "test": "../data/test.jsonl"
+  },
+  "training_order": "source_build/training_order.json",
+  "training_order_sha256": "f0cd3e50490fcb5e3182ce9e5850e3140bde21da03f510e9396b71b101736a69",
+  "source_scene_annotations": {
+    "trainA": {
+      "source_scene_json_sha256": "6eb42730c7688d42e9cecd90e7d6de4ac8fad3486e335948babab59ec3a3f02d",
+      "source_scenes": 70000
+    },
+    "valA": {
+      "source_scene_json_sha256": "e5d8075d872308e268d74612d859ac2813478b8c3a63c69cc998ff19fdb26016",
+      "source_scenes": 15000
+    },
+    "valB": {
+      "source_scene_json_sha256": "c20343b43c34a3a78970a9f0ad4d3ac28f90f6f8da559f4d9499f2ded3a1b3f8",
+      "source_scenes": 15000
+    }
+  },
+  "reference_image_hashes": "reference_image_hashes.json",
+  "reference_image_preprocessing": "Original PNGs; no resize or crop."
+}

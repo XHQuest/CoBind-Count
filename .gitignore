@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+outputs/
+.DS_Store
+*.log
+*.lock
+# Reference PNGs are selected explicitly by the publication manifest.
+/images/

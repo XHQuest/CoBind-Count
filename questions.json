@@ -1,0 +1,293 @@
+{
+  "protocol": "cobind-count-qwen-v1",
+  "questions": [
+    {
+      "id": "total",
+      "kind": "total",
+      "filters": {},
+      "question": "How many solid foreground objects are there in total?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many solid foreground objects are there in total?"
+    },
+    {
+      "id": "shape/cube",
+      "kind": "marginal",
+      "filters": {
+        "shape": "cube"
+      },
+      "question": "How many foreground objects have shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects have shape cube?"
+    },
+    {
+      "id": "shape/cylinder",
+      "kind": "marginal",
+      "filters": {
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects have shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects have shape cylinder?"
+    },
+    {
+      "id": "shape/sphere",
+      "kind": "marginal",
+      "filters": {
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects have shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects have shape sphere?"
+    },
+    {
+      "id": "binding/gray/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "gray",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color gray, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color gray, shape cube?"
+    },
+    {
+      "id": "binding/gray/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "gray",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color gray, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color gray, shape cylinder?"
+    },
+    {
+      "id": "binding/gray/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "gray",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color gray, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color gray, shape sphere?"
+    },
+    {
+      "id": "binding/red/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "red",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color red, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color red, shape cube?"
+    },
+    {
+      "id": "binding/red/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "red",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color red, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color red, shape cylinder?"
+    },
+    {
+      "id": "binding/red/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "red",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color red, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color red, shape sphere?"
+    },
+    {
+      "id": "binding/blue/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "blue",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color blue, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color blue, shape cube?"
+    },
+    {
+      "id": "binding/blue/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "blue",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color blue, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color blue, shape cylinder?"
+    },
+    {
+      "id": "binding/blue/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "blue",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color blue, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color blue, shape sphere?"
+    },
+    {
+      "id": "binding/green/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "green",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color green, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color green, shape cube?"
+    },
+    {
+      "id": "binding/green/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "green",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color green, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color green, shape cylinder?"
+    },
+    {
+      "id": "binding/green/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "green",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color green, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color green, shape sphere?"
+    },
+    {
+      "id": "binding/brown/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "brown",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color brown, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color brown, shape cube?"
+    },
+    {
+      "id": "binding/brown/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "brown",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color brown, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color brown, shape cylinder?"
+    },
+    {
+      "id": "binding/brown/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "brown",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color brown, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color brown, shape sphere?"
+    },
+    {
+      "id": "binding/purple/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "purple",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color purple, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color purple, shape cube?"
+    },
+    {
+      "id": "binding/purple/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "purple",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color purple, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color purple, shape cylinder?"
+    },
+    {
+      "id": "binding/purple/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "purple",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color purple, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color purple, shape sphere?"
+    },
+    {
+      "id": "binding/cyan/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "cyan",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color cyan, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color cyan, shape cube?"
+    },
+    {
+      "id": "binding/cyan/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "cyan",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color cyan, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color cyan, shape cylinder?"
+    },
+    {
+      "id": "binding/cyan/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "cyan",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color cyan, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color cyan, shape sphere?"
+    },
+    {
+      "id": "binding/yellow/cube",
+      "kind": "binding",
+      "filters": {
+        "color": "yellow",
+        "shape": "cube"
+      },
+      "question": "How many foreground objects simultaneously have color yellow, shape cube?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color yellow, shape cube?"
+    },
+    {
+      "id": "binding/yellow/cylinder",
+      "kind": "binding",
+      "filters": {
+        "color": "yellow",
+        "shape": "cylinder"
+      },
+      "question": "How many foreground objects simultaneously have color yellow, shape cylinder?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color yellow, shape cylinder?"
+    },
+    {
+      "id": "binding/yellow/sphere",
+      "kind": "binding",
+      "filters": {
+        "color": "yellow",
+        "shape": "sphere"
+      },
+      "question": "How many foreground objects simultaneously have color yellow, shape sphere?",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects simultaneously have color yellow, shape sphere?"
+    },
+    {
+      "id": "other",
+      "kind": "other",
+      "filters": {},
+      "question": "How many foreground objects cannot be assigned exactly one value in EACH of these categories: color: gray, red, blue, green, brown, purple, cyan, yellow; shape: cube, cylinder, sphere? Count each such object once, even if multiple attributes are outside the vocabulary. Include ambiguous or malformed objects that cannot be classified; do not force them into a category.",
+      "text": "Inspect the entire image. Count separate solid foreground objects, including small\nand partly occluded ones. Ignore shadows, reflections, floor, background and subdivisions\non a single connected object. Count repeated objects separately. The color vocabulary is\ngray, red, blue, green, brown, purple, cyan, yellow. Gray includes silver; cyan includes\nturquoise/teal. Classify the object's body color, not a highlight or reflection.\nThe shapes are cube, cylinder, sphere. A box is a cube and a ball is a sphere.\nDo not assume the scene contains a particular number or combination of objects.\nAnswer the current question only. Return just one nonnegative integer, with no explanation.\n\nHow many foreground objects cannot be assigned exactly one value in EACH of these categories: color: gray, red, blue, green, brown, purple, cyan, yellow; shape: cube, cylinder, sphere? Count each such object once, even if multiple attributes are outside the vocabulary. Include ambiguous or malformed objects that cannot be classified; do not force them into a category."
+    }
+  ],
+  "judge_sees_target_prompt": false,
+  "judge_sees_expected_answers": false,
+  "scope": [
+    "count",
+    "color",
+    "shape"
+  ]
+}

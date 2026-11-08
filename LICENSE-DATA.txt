@@ -1,0 +1,25 @@
+CoBind-Count data attribution
+============================
+
+Source data: CLEVR and CLEVR-CoGenT.
+Authors: Justin Johnson, Bharath Hariharan, Laurens van der Maaten,
+Li Fei-Fei, C. Lawrence Zitnick, Ross Girshick.
+Work: CLEVR: A Diagnostic Dataset for Compositional Language and
+Elementary Visual Reasoning, CVPR 2017.
+Source: https://cs.stanford.edu/people/jcjohns/clevr/
+
+The source project releases its data under Creative Commons
+Attribution 4.0 International (CC BY 4.0).
+License: https://creativecommons.org/licenses/by/4.0/
+Legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+CoBind-Count is a derivative data package with selected scenes,
+train/development/test partitions, text prompts, joint-count targets,
+diagnostic metadata, and counterfactual calibration targets.
+Reference PNGs preserve the source image content.
+The derived data is distributed under CC BY 4.0. Redistribution must
+retain attribution and identify adaptations as required by that license.
+
+CoBind-Count is an independent project, not an official release or
+an endorsement by the CLEVR authors. This notice concerns dataset
+content; third-party model weights and software have their own licenses.
